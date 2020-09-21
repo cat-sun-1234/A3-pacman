@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class LevelGenerator : MonoBehaviour
 {
+    int columns = 14;
+    int rows = 15;
     int[,] levelMap =
  {
  {1,2,2,2,2,2,2,2,2,2,2,2,2,7},
@@ -25,7 +27,14 @@ public class LevelGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        for (int x = 0; x < columns; x++)
+        {
+            for (int y = 0; y < rows; y++)
+            {
+                int instantiate = levelMap[x, y];
 
+            }
+        }
     }
 
     // Update is called once per frame

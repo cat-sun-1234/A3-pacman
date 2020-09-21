@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 64aaa73d191691846925c867d2dd1146
+guid: 73fe8db66f1078e4facc98bd4b058e2b
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -20,6 +20,9 @@ TextureImporter:
   - first:
       213: 8991445823508332458
     second: Ghost_5
+  - first:
+      213: -923108277791623692
+    second: Ghost_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -150,8 +153,8 @@ TextureImporter:
       name: Ghost_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
+        x: 64
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -171,7 +174,7 @@ TextureImporter:
       name: Ghost_3
       rect:
         serializedVersion: 2
-        x: 32
+        x: 0
         y: 32
         width: 32
         height: 32
@@ -192,8 +195,8 @@ TextureImporter:
       name: Ghost_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 32
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -213,8 +216,8 @@ TextureImporter:
       name: Ghost_5
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
+        x: 64
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -226,6 +229,27 @@ TextureImporter:
       bones: []
       spriteID: aaf3267765808cc70800000000000000
       internalID: 8991445823508332458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5f10589e57033f0800000000000000
+      internalID: -923108277791623692
       vertices: []
       indices: 
       edges: []
