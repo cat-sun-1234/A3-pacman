@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameStart : MonoBehaviour
 {
     public AudioSource source;
+    public AudioClip clip;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +22,11 @@ public class GameStart : MonoBehaviour
 
     public void PlayButton()
     {
-        SceneManager.LoadScene("sampleScene");
+        source.Stop();
+        source.clip = clip;
+        source.Play();
+        SceneManager.LoadScene("SampleScene");
+
     }
 
     public void ExitButton()

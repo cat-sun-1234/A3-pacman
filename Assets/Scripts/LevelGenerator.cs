@@ -6,6 +6,7 @@ public class LevelGenerator : MonoBehaviour
 {
     int columns = 14;
     int rows = 15;
+    public GameObject[] gameObjects = new GameObject[6];
     int[,] levelMap =
  {
  {1,2,2,2,2,2,2,2,2,2,2,2,2,7},
@@ -31,8 +32,8 @@ public class LevelGenerator : MonoBehaviour
         {
             for (int y = 0; y < rows; y++)
             {
-                int instantiate = levelMap[x, y];
-
+                int instantiate = levelMap[x, y] -1; //index is placed one less than the one on the levelMap
+                GameObject newOnject = GameObject.Instantiate(gameObjects[instantiate], new Vector3(0.0f, 0.0f, 0.0f), Quaternion.identity);
             }
         }
     }
